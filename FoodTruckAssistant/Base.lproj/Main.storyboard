@@ -63,7 +63,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="puk-mF-g7g" kind="show" id="A8v-0D-ore"/>
+                                            <segue destination="puk-mF-g7g" kind="presentation" id="wFX-56-XDu"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -642,7 +642,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="wwa-Ro-bF9">
                             <color key="tintColor" red="0.59206604959999998" green="0.59204810860000001" blue="0.60024625060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <segue destination="3Jn-ek-rZa" kind="show" id="Dw7-Cj-8yn"/>
+                                <segue destination="3Jn-ek-rZa" kind="presentation" id="OKJ-tB-ctB"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
