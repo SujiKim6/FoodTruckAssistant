@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="DaySales" representedClassName="DaySales" syncable="YES" codeGenerationType="class">
-        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="menuName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="totalSell" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalSell" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="MenuList" representedClassName="MenuList" syncable="YES" codeGenerationType="class">
         <attribute name="menuName" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-    </entity>
-    <entity name="MonthSales" representedClassName="MonthSales" syncable="YES" codeGenerationType="class">
-        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="sales" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="OrderList" representedClassName="OrderList" syncable="YES" codeGenerationType="class">
-        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="done" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="orderedMenu" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="totalPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-    </entity>
-    <entity name="YearSales" representedClassName="YearSales" syncable="YES" codeGenerationType="class">
-        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="sales" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalPrice" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="OrderList" positionX="-63" positionY="0" width="128" height="90"/>
-        <element name="MenuList" positionX="-234" positionY="-0" width="128" height="73"/>
-        <element name="MonthSales" positionX="-110" positionY="-126" width="128" height="73"/>
-        <element name="DaySales" positionX="-281" positionY="-126" width="128" height="88"/>
-        <element name="YearSales" positionX="-126" positionY="9" width="128" height="75"/>
+        <element name="DaySales" positionX="-281" positionY="-126" width="128" height="105"/>
+        <element name="MenuList" positionX="-234" positionY="-0" width="128" height="75"/>
+        <element name="OrderList" positionX="-63" positionY="0" width="128" height="105"/>
     </elements>
 </model>

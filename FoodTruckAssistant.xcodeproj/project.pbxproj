@@ -12,7 +12,6 @@
 		FD5018691FD06C3C00987CCA /* FoodTruckAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD5018671FD06C3C00987CCA /* FoodTruckAssistant.xcdatamodeld */; };
 		FD50186B1FD06C3C00987CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD50186A1FD06C3C00987CCA /* Assets.xcassets */; };
 		FD50186E1FD06C3C00987CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD50186C1FD06C3C00987CCA /* LaunchScreen.storyboard */; };
-		FD5018761FD2EB3000987CCA /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5018751FD2EB3000987CCA /* JoinViewController.swift */; };
 		FD5018781FD2EC2D00987CCA /* SalesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5018771FD2EC2D00987CCA /* SalesTableViewController.swift */; };
 		FD50187A1FD2EC6B00987CCA /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5018791FD2EC6B00987CCA /* MenuTableViewController.swift */; };
 		FD50187C1FD2EC8A00987CCA /* AddMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50187B1FD2EC8A00987CCA /* AddMenuViewController.swift */; };
@@ -34,7 +33,6 @@
 		FD50186A1FD06C3C00987CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD50186D1FD06C3C00987CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD50186F1FD06C3C00987CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD5018751FD2EB3000987CCA /* JoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		FD5018771FD2EC2D00987CCA /* SalesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesTableViewController.swift; sourceTree = "<group>"; };
 		FD5018791FD2EC6B00987CCA /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		FD50187B1FD2EC8A00987CCA /* AddMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMenuViewController.swift; sourceTree = "<group>"; };
@@ -82,18 +80,17 @@
 				FD5018871FD2F58B00987CCA /* appIcon.png */,
 				FD5018601FD06C3C00987CCA /* AppDelegate.swift */,
 				FD5018641FD06C3C00987CCA /* Main.storyboard */,
+				FD50187F1FD2F15600987CCA /* HomeViewController.swift */,
+				FD5018811FD2F1A100987CCA /* AddOrderViewController.swift */,
+				FD5018831FD2F21D00987CCA /* PaymentViewController.swift */,
+				FD50187D1FD2ECA900987CCA /* ShowOrderViewController.swift */,
+				FD5018771FD2EC2D00987CCA /* SalesTableViewController.swift */,
+				FD5018791FD2EC6B00987CCA /* MenuTableViewController.swift */,
+				FD50187B1FD2EC8A00987CCA /* AddMenuViewController.swift */,
 				FD50186A1FD06C3C00987CCA /* Assets.xcassets */,
 				FD50186C1FD06C3C00987CCA /* LaunchScreen.storyboard */,
 				FD50186F1FD06C3C00987CCA /* Info.plist */,
 				FD5018671FD06C3C00987CCA /* FoodTruckAssistant.xcdatamodeld */,
-				FD5018751FD2EB3000987CCA /* JoinViewController.swift */,
-				FD5018771FD2EC2D00987CCA /* SalesTableViewController.swift */,
-				FD5018791FD2EC6B00987CCA /* MenuTableViewController.swift */,
-				FD50187B1FD2EC8A00987CCA /* AddMenuViewController.swift */,
-				FD50187D1FD2ECA900987CCA /* ShowOrderViewController.swift */,
-				FD50187F1FD2F15600987CCA /* HomeViewController.swift */,
-				FD5018811FD2F1A100987CCA /* AddOrderViewController.swift */,
-				FD5018831FD2F21D00987CCA /* PaymentViewController.swift */,
 			);
 			path = FoodTruckAssistant;
 			sourceTree = "<group>";
@@ -189,7 +186,6 @@
 				FD5018821FD2F1A100987CCA /* AddOrderViewController.swift in Sources */,
 				FD50187A1FD2EC6B00987CCA /* MenuTableViewController.swift in Sources */,
 				FD5018801FD2F15600987CCA /* HomeViewController.swift in Sources */,
-				FD5018761FD2EB3000987CCA /* JoinViewController.swift in Sources */,
 				FD5018611FD06C3C00987CCA /* AppDelegate.swift in Sources */,
 				FD5018841FD2F21D00987CCA /* PaymentViewController.swift in Sources */,
 				FD50187E1FD2ECA900987CCA /* ShowOrderViewController.swift in Sources */,
@@ -355,6 +351,7 @@
 				FD5018741FD06C3C00987CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

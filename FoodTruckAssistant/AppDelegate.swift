@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  FoodTruckAssistant
 //
-//  Created by 김은지 on 2017. 12. 1..
+//  Created by 김수지 on 2017. 12. 1..
 //  Copyright © 2017년 Suji. All rights reserved.
 //
 
@@ -13,6 +13,12 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    /* OrderListDB에 주문번호 저장을 위한 변수 */
+    var orderNum = 0
+    
+    /* 영업시작 선택하기 전과 안했을 때를 넣어주기 위한 변수 */
+    var start = false
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
