@@ -19,10 +19,10 @@
 		FD5018801FD2F15600987CCA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD50187F1FD2F15600987CCA /* HomeViewController.swift */; };
 		FD5018821FD2F1A100987CCA /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5018811FD2F1A100987CCA /* AddOrderViewController.swift */; };
 		FD5018841FD2F21D00987CCA /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5018831FD2F21D00987CCA /* PaymentViewController.swift */; };
-		FD5018881FD2F58B00987CCA /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5018871FD2F58B00987CCA /* appIcon.png */; };
 		FD5018B51FD3007F00987CCA /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5018B21FD3007F00987CCA /* home.png */; };
 		FD5018B61FD3007F00987CCA /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5018B31FD3007F00987CCA /* menu.png */; };
 		FD5018B71FD3007F00987CCA /* sales.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5018B41FD3007F00987CCA /* sales.png */; };
+		FD6FD53F1FEE5D9200A6B7A7 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6FD53E1FEE5D9200A6B7A7 /* appIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +40,10 @@
 		FD50187F1FD2F15600987CCA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD5018811FD2F1A100987CCA /* AddOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
 		FD5018831FD2F21D00987CCA /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
-		FD5018871FD2F58B00987CCA /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
 		FD5018B21FD3007F00987CCA /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = TabIcon/home.png; sourceTree = "<group>"; };
 		FD5018B31FD3007F00987CCA /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = TabIcon/menu.png; sourceTree = "<group>"; };
 		FD5018B41FD3007F00987CCA /* sales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sales.png; path = TabIcon/sales.png; sourceTree = "<group>"; };
+		FD6FD53E1FEE5D9200A6B7A7 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 		FD50185F1FD06C3C00987CCA /* FoodTruckAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				FD6FD53E1FEE5D9200A6B7A7 /* appIcon.png */,
 				FD5018891FD2FAC500987CCA /* TabbarImage */,
-				FD5018871FD2F58B00987CCA /* appIcon.png */,
 				FD5018601FD06C3C00987CCA /* AppDelegate.swift */,
 				FD5018641FD06C3C00987CCA /* Main.storyboard */,
 				FD50187F1FD2F15600987CCA /* HomeViewController.swift */,
@@ -164,9 +164,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5018881FD2F58B00987CCA /* appIcon.png in Resources */,
 				FD5018B51FD3007F00987CCA /* home.png in Resources */,
 				FD5018B61FD3007F00987CCA /* menu.png in Resources */,
+				FD6FD53F1FEE5D9200A6B7A7 /* appIcon.png in Resources */,
 				FD50186E1FD06C3C00987CCA /* LaunchScreen.storyboard in Resources */,
 				FD50186B1FD06C3C00987CCA /* Assets.xcassets in Resources */,
 				FD5018B71FD3007F00987CCA /* sales.png in Resources */,
